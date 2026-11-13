@@ -56,22 +56,24 @@
 ### Screenshots
 
 * Local run
-* 
+* ![local_run](images/workingimage.png)
 * Repository secrets
-* 
+* ![secrets](images/secrets.png)
 * Main trigger
-* 
+* ![main_trigger](images/actionworked.png)
 * Branch negative test
-* 
+* ![part1](images/testbranch1.png)
+* ![part2](images/testbranch2.png)
 * Change to image
-* 
+* ![change](images/localhostchanged.png)
 * Tag trigger
-* 
+* ![git_tags](images/multireleasegithub.png)
 * Tag negative test
-* 
+* ![negative_tags](images/negativetag.png)
 * Tag set
-* 
+* ![docker_tags](images/multiplereleasesdocker.png)
 * Two releases
-* 
-* Rollback 
+* ![two_releases](images/multiplereleasesdocker.png)
+* Rollback
+* ![rollback](images/bothreleasesopen.png)
 
