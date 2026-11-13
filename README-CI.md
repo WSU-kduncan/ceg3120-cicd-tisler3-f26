@@ -10,3 +10,9 @@
 * To run the container, I used docker run -d --name testsite -p 8080:80 cheesecakeischeesy/lb-site:latest
 * The -d flag runs it in the background, the -p 8080:80 flag connects port 8080 on my computer to port 80 in the container
 * To see the site go to http://localhost:8080.
+
+## Part 2
+
+### Documentation
+
+*To make a PAT go to your docker account settings, under personal access token create one with read an writing capabilities.
