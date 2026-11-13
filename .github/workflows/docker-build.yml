@@ -3,7 +3,7 @@ name: Build and Push Workflow
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - "v*.*.*"
 
 jobs:
   docker:
