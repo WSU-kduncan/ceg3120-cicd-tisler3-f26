@@ -47,3 +47,7 @@
 
 ### Documentation
 
+* The purpose of this project is to automate pushing new images of my website to docker
+* The tools used were GitHub and docker. GitHub ha all the actions and files that ran a pushed images to docker which hosted the pages
+* 
+
