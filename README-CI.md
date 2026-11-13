@@ -23,3 +23,6 @@
 * For this to work in another repo the secrets need to be changed to that of the other repo
 * For this to work in another workflow the tag at the bottom needs to be changed
 * [link to yml](https://github.com/WSU-kduncan/ceg3120-cicd-tisler3-f26/blob/436cc2dfe99b051be76910d6706afea6662b17a5/.github/workflows/docker-build.yml)
+* you can match the commit times from github to docker.
+* Running the image without a local copy pulls it from docker hub with the updated info.
+* [link to docker hub repo](https://hub.docker.com/repository/docker/cheesecakeischeesy/lb-site/general).
