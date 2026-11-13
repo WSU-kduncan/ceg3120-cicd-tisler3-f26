@@ -22,3 +22,4 @@
 * First it copies over the repo files with checkout, then it logs in with the secrets, then it sets up the build tools using buildx, then it buils the image an sens it to the docker repo
 * For this to work in another repo the secrets need to be changed to that of the other repo
 * For this to work in another workflow the tag at the bottom needs to be changed
+* [link to yml](https://github.com/WSU-kduncan/ceg3120-cicd-tisler3-f26/blob/436cc2dfe99b051be76910d6706afea6662b17a5/.github/workflows/docker-build.yml)
