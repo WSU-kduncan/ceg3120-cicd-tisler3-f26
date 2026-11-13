@@ -15,4 +15,7 @@
 
 ### Documentation
 
-*To make a PAT go to your docker account settings, under personal access token create one with read an writing capabilities.
+* To make a PAT go to your docker account settings, under personal access token create one with read an writing capabilities.
+* To make a github secret just go into the repository settings an under secrets select an action an enter the name of the secret and what it should store.
+* For this project the secrets set were my docker username and my docker PAT.
+* 
