@@ -31,4 +31,19 @@
 
 ### Documentation
 
-* 
+* To see your tags use git tag -l
+* To make a tag use git tag -a v1.0.0 
+* A normal git push will send the tag to git hub
+* The workflow only triggers when a tag is added to a commit
+* The make meta step takes the tag data from git and makes tag data for docker using docker/metadata-action, The next step logs into docker, then it sets up to build with buildx, then it builds and pushes
+* Changes in workflow require an image change with correct username
+* Changes in repo require correct secrets and dockerfile
+* [link to yml](https://github.com/WSU-kduncan/ceg3120-cicd-tisler3-f26/blob/436cc2dfe99b051be76910d6706afea6662b17a5/.github/workflows/docker-build.yml)
+* To see it working you can use the actions tab to see the releases with tags
+* You can see the docker images working by running two different release images at the same time
+* [link to docker hub repo](https://hub.docker.com/repository/docker/cheesecakeischeesy/lb-site/general).
+
+## Part 4
+
+### Documentation
+
