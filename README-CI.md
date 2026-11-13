@@ -18,4 +18,7 @@
 * To make a PAT go to your docker account settings, under personal access token create one with read an writing capabilities.
 * To make a github secret just go into the repository settings an under secrets select an action an enter the name of the secret and what it should store.
 * For this project the secrets set were my docker username and my docker PAT.
-* 
+* The workflow runs when a commit is pushed to the main branch
+* First it copies over the repo files with checkout, then it logs in with the secrets, then it sets up the build tools using buildx, then it buils the image an sens it to the docker repo
+* For this to work in another repo the secrets need to be changed to that of the other repo
+* For this to work in another workflow the tag at the bottom needs to be changed
