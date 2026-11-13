@@ -51,3 +51,27 @@
 * The tools used were GitHub and docker. GitHub ha all the actions and files that ran a pushed images to docker which hosted the pages
 * ![diagram](images/diagram.png)
 
+## Testing and Proof
+
+### Screenshots
+
+* Local run
+* 
+* Repository secrets
+* 
+* Main trigger
+* 
+* Branch negative test
+* 
+* Change to image
+* 
+* Tag trigger
+* 
+* Tag negative test
+* 
+* Tag set
+* 
+* Two releases
+* 
+* Rollback 
+
