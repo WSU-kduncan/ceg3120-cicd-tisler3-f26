@@ -26,3 +26,9 @@
 * you can match the commit times from github to docker.
 * Running the image without a local copy pulls it from docker hub with the updated info.
 * [link to docker hub repo](https://hub.docker.com/repository/docker/cheesecakeischeesy/lb-site/general).
+
+## Part 3
+
+### Documentation
+
+* 
