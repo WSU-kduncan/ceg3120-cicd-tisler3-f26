@@ -56,24 +56,24 @@
 ### Screenshots
 
 * Local run
-* ![local_run](images/workingimage.png)
+* This image shows the container running ![local_run](images/workingimage.png)
 * Repository secrets
-* ![secrets](images/secrets.png)
+* This image shows the repository secrets ![secrets](images/secrets.png)
 * Main trigger
-* ![main_trigger](images/actionworked.png)
+* This image shows the successful workflow trigger from main ![main_trigger](images/actionworked.png)
 * Branch negative test
-* ![part1](images/testbranch1.png)
-* ![part2](images/testbranch2.png)
+* This image shows a commit on a branch other than main ![part1](images/testbranch1.png)
+* This image shows no workflow triggered from that commit ![part2](images/testbranch2.png)
 * Change to image
-* ![change](images/localhostchanged.png)
+* This image shows the change made to the site ![change](images/localhostchanged.png)
 * Tag trigger
-* ![git_tags](images/multireleasegithub.png)
+* This image shows that workflow was triggered from a commit using a tag ![git_tags](images/multireleasegithub.png)
 * Tag negative test
-* ![negative_tags](images/negativetag.png)
+* This image shows that no workflow was triggered from a commit not using a tag ![negative_tags](images/negativetag.png)
 * Tag set
-* ![docker_tags](images/multiplereleasesdocker.png)
+* This image shows that docker correctly labeled the tags ![docker_tags](images/multiplereleasesdocker.png)
 * Two releases
-* ![two_releases](images/multiplereleasesdocker.png)
+* This image shows that docker differentiates the tags from multiple releases ![two_releases](images/multiplereleasesdocker.png)
 * Rollback
-* ![rollback](images/bothreleasesopen.png)
+* This image shows the latest and a rolled back image running simultaneously ![rollback](images/bothreleasesopen.png)
 
